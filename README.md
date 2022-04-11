@@ -7,6 +7,9 @@ The algorithm is applied on the GTZAN Dataset, a public dataset used for evaluat
 
 When the user chooses a song, a playlist of songs with similar audio properties is recommended and updated after each choice. Thus, the purpose of this recommender system is generating songs that may be of interest to the user in the future, regardless of musical genre.
 
-Used Librosa library for sound processing and audio feature extraction and Pandas library for data analysis and manipulation.
+Libraries mainly used :
+
+- Librosa, for sound processing and audio feature extraction 
+- Pandas, for data analysis and manipulation.
 
 Eventually, the algorithm was integrated into a web API using Django framework.
